@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <table id="sortable-table">
+      <thead>
+        <tr style="font-weight: bold;">
+          <td>Name</td>
+          <td>Grade</td>
+          <td style="cursor: pointer;" id="sortable-table-age">
+            Age <span class="sort-icon">➡️</span>
+          </td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="input_container">
+      <input class="inp" type="text" name="name"  placeholder="type Name">
+      <input class="inp" type="number" name="age" placeholder="type Age" >
+      <input class="inp" type="number" name="grade" placeholder="type Grade">
+    </div>
+    <script type="module" src="/JS/index.js"></script>
+  </body>
+</html>
