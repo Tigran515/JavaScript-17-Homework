@@ -1,0 +1,14 @@
+li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li:hover {
+    cursor: pointer;
+    font-size: larger;
+    color: #FF851B;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: red;
+}
