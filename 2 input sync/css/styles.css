@@ -1,0 +1,24 @@
+body{
+    background-color: #85144b;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+   
+}  
+
+/* .wrap{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+} */
+
+.txt{
+    color: blanchedalmond;
+    font-family: 'Raleway';
+    font-size: 30px;
+}
+
