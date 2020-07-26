@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+input{
+    margin: 10px 0;
+}
+
+.all-error{
+    color: red;
+}
