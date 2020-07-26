@@ -1,0 +1,68 @@
+body {
+    background-color: #7FDBFF;
+}
+
+.wrapper {
+    width: 1174px;
+    margin: 0 auto;
+}
+
+/* 
+main 
+*/
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.box_std {
+    width: 150px;
+    height: 100px;
+}
+
+.box_header_std {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: #3D9970;
+}
+
+.btn {
+    width: 102px;
+    height: 70px;
+}
+
+.btn_ {
+    display: inline-block;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+
+.btn_:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.span_std {
+    color: red;
+}
+
+.dateTime_txt {
+    font-weight: 700;
+}
